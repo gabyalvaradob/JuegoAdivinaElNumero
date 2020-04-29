@@ -8,6 +8,9 @@ body{
     .container {
         width: 45%;
     }
+    .banner {
+        font-size: 70px;
+    }
   }
 
 .container{
