@@ -1,0 +1,36 @@
+body{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    border-radius: 35px;
+    width: 44%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#number-guess, #result, #history {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#history {
+    margin-top: 16px;
+}
+  
+.banner {
+    color: #FFD23F;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+#history {
+    padding-bottom: 25px;
+}

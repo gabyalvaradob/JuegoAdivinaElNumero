@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Adivina en qué número estoy pensando...</a>
+    </nav>
+    <main>
+        <div class="container">
+        <h1 class="banner p-3">¿1-100?</h1>
+        <p>Adivina el número entre el 1 al 100. <br> (Solo números enteros)</p>
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder="Escribe tu opción">
+        </div>
+        <div id="result">
+            <!-- Aqui se verá la notificación del resultado-->
+        </div>
+        <button type="button" id="number-submit" class="btn btn-lg btn-secondary">Comprobar</button>
+        <button type="button" id="restart-game" class="btn btn-lg btn-light">Reiniciar juego</button>
+        <div id="history">
+            <!-- Aqui saldra el historico-->
+        </div>
+    </div>
+    </main>
+</body>
+
+</html>
