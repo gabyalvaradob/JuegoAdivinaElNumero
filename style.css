@@ -1,13 +1,18 @@
 body{
     background-image: url('image.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
+
+@media only screen and (min-width: 700px) {
+    .container {
+        width: 45%;
+    }
+  }
 
 .container{
     background-color: white;
     border-radius: 35px;
-    width: 44%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -22,7 +27,7 @@ body{
 }
   
 .banner {
-    color: #FFD23F;
+    color: red;
     font-size: 90px;
     font-family: sans-serif;
 }
